@@ -1,0 +1,25 @@
+{
+    "name": "kildsforkids/counter-bundle",
+    "version": "0.1.0",
+    "type": "symfony-bundle",
+    "description": "Yet another counter for count files",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.4",
+        "symfony/console": "^5.4",
+        "symfony/finder": "^5.4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Kildsforkids\\CounterBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kildsforkids\\CounterBundle\\Tests\\": "tests/"
+        }
+    }
+}
